@@ -1,0 +1,29 @@
+.navbar_container {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_left{
+    font-size: 26px;
+    font-weight: 700;
+    color: tomato;
+    cursor: pointer;
+}
+
+.navbar_right{
+    display: flex;
+}
+.navbar_right >p { 
+    margin-right: 10px;
+    padding: 8px 10px;
+    font-size: 15px;
+
+}
+.navbar_right >p:hover{
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 8px;
+}
