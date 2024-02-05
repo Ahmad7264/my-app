@@ -1,0 +1,39 @@
+.banner{
+    position: relative;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(249, 249, 249);
+}
+.banner_contents{
+    width: fit-content;
+    padding-left: 40px;
+    font-size: 2.5rem;
+}
+.banner_contents > h3{
+    padding-top: 20px;
+    width: 400px;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+.banner_buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.banner_buttons > button{
+
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgba(128, 0, 128, 0.858);
+    font-weight: bolder;
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    cursor: pointer;
+}
